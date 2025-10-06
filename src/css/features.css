@@ -1,0 +1,28 @@
+.features-container {
+    max-width: 375px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  .features-section .section-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 50px;
+  }
+  .features-icon {
+    margin: 0 auto 24px auto;
+  }
+  .features-title {
+    margin-bottom: 8px;
+  }
+  
+  .features-text {
+    max-width: 226px;
+    margin: 0 auto 32px auto;
+  }
+  .features-cta {
+    margin-bottom: 100px;
+  }
+  

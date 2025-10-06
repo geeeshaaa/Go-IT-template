@@ -1,3 +1,43 @@
+/* https://github.com/kkseni/blended-123-3-4 */
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
 h1,
 h2,
 h3,
@@ -7,28 +47,19 @@ h6,
 p {
   margin: 0;
 }
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 a {
-  color: currentColor;
   text-decoration: none;
+  color: inherit;
 }
 
-button {
-  cursor: pointer;
-}
+/* ЗМІННІ ДЛЯ ШРИФТІВ */
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Montserrat", sans-serif;
+  --font3: "FontAwesome", sans-serif;
+  --font4: "Roboto", sans-serif;
+  --font5: "ProximaNova", sans-serif;
+  --font6: "Asap Condensed", sans-serif;
 }

@@ -30,3 +30,33 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+/* ------------------ section base ----------------- */
+.section-container {
+  padding: 0 31px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.section-eyebrow {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.section-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #22343d;
+  margin-bottom: 12px;
+}
